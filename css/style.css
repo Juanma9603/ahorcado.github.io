@@ -1,0 +1,62 @@
+*{
+    transition: all 0.5s;
+}
+
+.ahorcado{
+    margin-left: 15px;
+    width: 235px;
+    height: 299px;
+    background-image: url('../img/imgahorados.png');
+    border: 5px solid;
+    border-radius: 50px;
+
+    
+}
+
+.nombreJuego{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+}
+
+#letra{
+    background: rgb(165, 230, 165);
+    padding: 5px;
+    font-size: 15px;
+    border-radius: .375rem;
+}
+
+#espacios{
+    padding: 5px;
+    font-size: 25px;
+}
+
+#adivinar{
+    cursor: pointer;
+    background: linear-gradient(darkmagenta,magenta);
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 50px;
+}
+.nuevoJuego{
+    cursor: pointer;
+    background: linear-gradient(darkmagenta,magenta);
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 50px;
+    border: 5px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background: blueviolet;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: sans-serif;
+}
